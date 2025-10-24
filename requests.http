@@ -1,0 +1,18 @@
+
+POST http://localhost:3000/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "leandronero1@hotmail.com",
+    "password": "123123"
+}
+
+POST http://localhost:3000/user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Leandro",
+    "email": "leandronero132@hotmail.com",
+    "password": "123123"
+}
+
